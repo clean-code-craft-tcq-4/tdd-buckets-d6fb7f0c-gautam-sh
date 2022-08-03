@@ -1,5 +1,7 @@
 #include <assert.h>
+#include <vector>
 
 int main() {
-    assert(detect_range(4,5)=="4-5,2");
+    std::vector<int> current(4,5);
+    assert(detect_range(current)=="4-5,2");
 }
