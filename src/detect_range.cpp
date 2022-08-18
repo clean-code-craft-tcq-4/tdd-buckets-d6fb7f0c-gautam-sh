@@ -7,7 +7,7 @@ std::vector<std::tuple<int, int, int>> detect_range(std::vector<int> current)
 {
     sort(current.begin(), current.end());
 
-    std::unique(current.begin(), current.end()); // 2,3,4,5
+    std::unique(current.begin(), current.end());
 
     std::vector<std::pair<int, int>> boundary = {std::make_pair(current[0], current[0])};
     std::vector<std::tuple<int, int, int>> range_list;
