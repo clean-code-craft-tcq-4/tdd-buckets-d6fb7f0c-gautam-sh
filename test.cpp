@@ -8,13 +8,14 @@ int main()
     std::vector<int> current = {
         4,
         5,
+        4,
         7,
         8,
         10,
         9,
     };
 
-    std::vector<std::tuple<int, int, int>> expected_range_list = {std::make_tuple(4, 5, 2), std::make_tuple(7, 10, 4)};
+    std::vector<std::tuple<int, int, int>> expected_range_list = {std::make_tuple(4, 5, 3), std::make_tuple(7, 10, 4)};
     
     for (size_t i=0; i < detect_range(current).size(); ++i)
     {
