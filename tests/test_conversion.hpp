@@ -1,8 +1,8 @@
-#include "detect_range.hpp"
+#include "D2A_conversion.hpp"
 #include <vector>
 #include <assert.h>
 
-void test_conversion(std::vector<int*> current_bit,std::vector<int> current)
+void test_conversion(std::vector<int*> current_bit,std::vector<long int> current)
 {
     for(size_t i = 0; i < current_bit.size(); ++i)
     {
