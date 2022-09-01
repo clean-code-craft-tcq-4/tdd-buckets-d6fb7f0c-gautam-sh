@@ -1,0 +1,1 @@
+long int D2AConverter(int*);
